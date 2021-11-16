@@ -4,4 +4,5 @@ Projects for the Tech Academy boot camp on HTML and CSS
 ```
 HTML5
 CSS
+JavaScript
 ```
