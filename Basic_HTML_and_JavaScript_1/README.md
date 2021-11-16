@@ -1,6 +1,6 @@
 ### Contents of File:
 alt attribute
 <img> element
-<b> tag
-<i> tag
-<u> tag
+<b>-tag
+<i>-tag
+<u>-tag
