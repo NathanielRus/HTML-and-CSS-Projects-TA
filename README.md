@@ -1,5 +1,5 @@
 # HTML-and-CSS-Projects-TA
-Projects for the Tech Academy boot camp on HTML and CSS
+Basic Projects for the Tech Academy boot camp on HTML and CSS
 ### Technologies
 ```
 HTML5
