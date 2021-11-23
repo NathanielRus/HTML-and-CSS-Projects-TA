@@ -10,10 +10,11 @@
    - Basic_CSS_2.css
 3. Basic_HTML_3.html
    - My_Style.css
-4. basics_css_demo_1.html 
+```
+1. basics_css_demo_1.html 
    - basic_style.css
-5. css_menu_rollover.html
+2. css_menu_rollover.html
    - menu_rolloever.css
-
+```
 
 Basic_HTML_4 unlinked
