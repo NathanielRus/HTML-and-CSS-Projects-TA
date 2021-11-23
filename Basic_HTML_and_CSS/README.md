@@ -1,12 +1,20 @@
 ### Basics of HTML and CSS projects:
 ```
-List and Table HTML pages are linked with CCS
+1. HTML_Lists.html
+   - CSS_Lists.css
+2. HTML_Table.html
+   - CSS_Table.css
 ```
-```
-Basic_CSS_2 linked with Basic_HTML_5
 
-Basic_HTML_3.html linked with My_Style.css
-
-basics_css_demo_1.html linked with basic_style.css to create simple CSS for website
+1. Basic_HTML_5.html
+   - Basic_CSS_2.css
+3. Basic_HTML_3.html
+   - My_Style.css
 ```
+1. basics_css_demo_1.html 
+   - basic_style.css
+2. css_menu_rollover.html
+   - menu_rolloever.css
+```
+
 Basic_HTML_4 unlinked
