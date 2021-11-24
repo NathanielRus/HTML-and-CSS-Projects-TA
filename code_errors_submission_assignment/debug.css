@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+}
+
+/*================
+    IMAGE BORDER
+==================*/
+
+.logo {
+    width: 601px;
+    border: 2px;
+    border: dashed;
+    border-color: red;
+}

@@ -311,7 +311,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input {
+.submit input[type="submit"] {
     color: rgb(225, 225, 225);
     cursor: pointer;
     border: none;
@@ -329,7 +329,7 @@ section {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.submit input:hover {
+.submit input[type="submit"]:hover {
     color: #000;
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
