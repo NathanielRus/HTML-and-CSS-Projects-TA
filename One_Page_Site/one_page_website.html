@@ -3,43 +3,47 @@
 	<head>
 		<title>Telluride Resort</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/main-styles.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 		<body>
 		
 			<!--NAV-->
-			<div>
-				<div>
-					<ul>
+			<div class="wrap">
+				<div class="menu-container">
+					<ul class="menu">
 						<a href="#home" id="link"><li>HOME</li></a>
 						<a href="#gallery" id="link"><li>GALLERY</li></a>
 						<a href="#contact" id="link"><li>RESERVATION</li></a>
 					</ul>
 				</div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/TlVqZ0z_dWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="iframe">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/TlVqZ0z_dWw?controls=0&mute=1&autoplay=1&loop=1" title="YouTube video player" frameborder="0"></iframe>
+					</div>
 			</div>
 			<!--END NAV-->
 			
 			<!--HOME-->
 			<div id="home">
-				<div>
-					<div>
-						<span>Telluride Resort</span>
+				<div class="container">
+					<div class="text-center">
+						<span class="head-main">Telluride Resort</span>
 					</div>
 				</div>
 			</div>
 			<!--END HOME-->
 			
 			<!--GALLERY-->
-			<section>
-				<div id="gallery">
+			<section id="gallery">
+				<div class="container">
 					<h1>Gallery</h1>
-					<div>
+					<div class="flex-container">
 					
 						<!--PHOTO-CONTAINER 1-->
-						<div>
-							<div>
+						<div class="photo-container">
+							<div class="photo">
 								<img src="./images/thumbs/thumbnail_1.png" alt="Telluride Mountains">
-								<div>
+								<div class="photo-overlay">
 									<p>Where you will be staying.</p>
 								</div>
 							</div>
@@ -47,10 +51,10 @@
 						<!--END PHOTO-CONTAINER 1-->
 						
 						<!--PHOTO-CONTAINER 2-->
-						<div>
-							<div>
+						<div class="photo-container">
+							<div class="photo">
 								<img src="./images/thumbs/thumbnail_2.png" alt="Luxury Food">
-								<div>
+								<div class="photo-overlay">
 									<p>Luxury at its finest!</p>
 								</div>
 							</div>
@@ -58,10 +62,10 @@
 						<!--END PHOTO-CONTAINER 2-->
 						
 						<!--PHOTO-CONTAINER 3-->
-						<div>
-							<div>
+						<div class="photo-container">
+							<div class="photo">
 								<img src="./images/thumbs/thumbnail_3.png" alt="Resort">
-								<div>
+								<div class="photo-overlay">
 									<p>Luxury on the Mountains.</p>
 								</div>
 							</div>
@@ -74,18 +78,18 @@
 			<!--END GALLERY-->
 			
 			<!--RSVP-->
-			<section>
-				<div id="contact">
-					<div>
-						<h1>Reservation</h1>
-						<div>
+			<section id="contact">
+				<div class="container">
+					<div class="heading-padding">
+						<h1 class="heading-padding">Reservation</h1>
+						<div class="reservation">
 							<h2><span>Your next great adventure is a form away!</span>
 								<br />Reserve your vacation today!
 							</h2>
-							<p>
+							<p class="rsvp-text">
 								Please provide your basic contact information to Reserve your stay today.
 							</p>
-							<div>
+							<div class="form-rsvp">
 								<form action="" method="post">
 									<input class="rsvp" type="text" value="First Name">
 									<input class="rsvp" type="text" value="Last Name">
@@ -94,7 +98,7 @@
 									<div class="form-spacer">
 										<label class="terms">Terms and Conditions</label>
 									</div>
-									<div>
+									<div class="submit">
 										<input type="submit" value="Submit">
 									</div>
 								</form>
@@ -106,7 +110,7 @@
 			<!--END RSVP-->
 			
 			<!--FOOTER-->
-			<div>
+			<div id="footer">
 				www.TellurideLuxury.com &nbsp;|&nbsp; &copy; 2021
 			</div>
 			<!--END FOOTER-->
