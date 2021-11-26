@@ -1,2 +1,6 @@
 # One Page Project:
-In Development:
+### Technologies:
+```
+HTML
+CSS
+```
