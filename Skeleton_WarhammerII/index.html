@@ -39,7 +39,7 @@
                     <!-- PHOTO-CONTAINER 1 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_1.png" alt="Elf vs Orks">
+                            <img src="images/Thumb/thumbnail_1.png" onclick="openModal();currentSlide(1)" alt="Elf vs Orks">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -51,7 +51,7 @@
                     <!-- PHOTO-CONTAINER 2 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_2.png" alt="Elf vs T-Rex">
+                            <img src="./images/Thumb/thumbnail_2.png" onclick="openModal();currentSlide(2)" alt="Elf vs T-Rex">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -63,7 +63,7 @@
                     <!-- PHOTO-CONTAINER 3 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_3.png" alt="Epic Battle">
+                            <img src="./images/Thumb/thumbnail_3.png" onclick="openModal();currentSlide(3)" alt="Epic Battle">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -75,7 +75,7 @@
                     <!-- PHOTO-CONTAINER 4 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_4.png" alt="Tomb Kings">
+                            <img src="./images/Thumb/thumbnail_4.png" onclick="openModal();currentSlide(4)" alt="Tomb Kings">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -87,7 +87,7 @@
                     <!-- PHOTO-CONTAINER 5 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_5.png" alt="Lizard man Map">
+                            <img src="./images/Thumb/thumbnail_5.png" onclick="openModal();currentSlide(5)" alt="Lizard man Map">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -99,7 +99,7 @@
                     <!-- PHOTO-CONTAINER 6 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_6.png" alt="Lizard man vs Elf">
+                            <img src="./images/Thumb/thumbnail_6.png" onclick="openModal();currentSlide(6)" alt="Lizard man vs Elf">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -111,7 +111,7 @@
                     <!-- PHOTO-CONTAINER 7 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_7.png" alt="Elf territory">
+                            <img src="./images/Thumb/thumbnail_7.png" onclick="openModal();currentSlide(7)" alt="Elf territory">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -123,7 +123,7 @@
                     <!-- PHOTO-CONTAINER 8 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_8.png" alt="Elf vs Orks">
+                            <img src="./images/Thumb/thumbnail_8.png" onclick="openModal();currentSlide(8)" alt="Elf vs Orks">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -135,7 +135,7 @@
                     <!-- PHOTO-CONTAINER 9 -->
                     <div class="photo-container">
                         <div class="photo">
-                            <img src="./images/Thumb/thumbnail_9.png" alt="Vortex">
+                            <img src="./images/Thumb/thumbnail_9.png" onclick="openModal();currentSlide(9)" alt="Vortex">
                             <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>Epic battles to be fought, Nations to Conquer!</p>
@@ -148,6 +148,106 @@
             </div>
         </section>
         <!-- END GALLERY -->
+
+        <!-- Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="./images/Thumb/thumbnail_1.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="./images/Thumb/thumbnail_2.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="./images/Thumb/thumbnail_3.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="./images/Thumb/thumbnail_4.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="./images/Thumb/thumbnail_5.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="./images/Thumb/thumbnail_6.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="./images/Thumb/thumbnail_7.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="./images/Thumb/thumbnail_8.png" style="width: 100%;" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="./images/Thumb/thumbnail_9.png" style="width: 100%;" alt="">
+                </div>
+
+                <!-- Next/Previous -->
+                <div class="mySlides">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                </div>
+
+                <!-- Caption text -->
+                <div class="caption-cantainer">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_1.png" onclick="currentSlide(1)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_2.png" onclick="currentSlide(2)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_3.png" onclick="currentSlide(3)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_4.png" onclick="currentSlide(4)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_5.png" onclick="currentSlide(5)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_6.png" onclick="currentSlide(6)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_7.png" onclick="currentSlide(7)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_8.png" onclick="currentSlide(8)" alt="">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Thumb/thumbnail_9.png" onclick="currentSlide(9)" alt="">
+                </div>
+
+            </div>
+        </div>
 
         <!-- RSVP -->
         <section id="contact">
@@ -186,6 +286,6 @@
             www.WarhammerIIfan.com &nbsp;|&nbsp; &copy; 2021
         </div>
         <!-- END FOOTER -->
-
+        <script src="JS/Warhammer.js"></script>
 	</body>
 </html>
