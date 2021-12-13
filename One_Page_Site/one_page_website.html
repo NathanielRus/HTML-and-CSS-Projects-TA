@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="./css/main-styles.css">
 		<link rel="stylesheet" href="./css/animations.css">
+		<script src="JS/page.js" defer></script>
 	</head>
 		<body>
 		
@@ -38,41 +39,72 @@
 				<div class="container">
 					<h1>Gallery</h1>
 					<div class="flex-container">
+						<div class="row">
+							<div class="column">
 					
-						<!--PHOTO-CONTAINER 1-->
-						<div class="photo-container">
-							<div class="photo">
-								<img src="./images/thumbs/thumbnail_1.png" alt="Telluride Mountains">
-								<div class="photo-overlay">
-									<p>Where you will be staying.</p>
+									<!--PHOTO-CONTAINER 1-->
+								<div class="column">
+									<img src="./images/thumbs/thumbnail_1.png" onclick="openModal();currentSlide(1)" alt="Telluride Mountains">
+								</div>
+									<!--END PHOTO-CONTAINER 1-->
+									
+									<!--PHOTO-CONTAINER 2-->
+								<div class="column">
+									<img src="./images/thumbs/thumbnail_2.png" onclick="openModal();currentSlide(2)" alt="Luxury Food">
+								</div>
+									<!--END PHOTO-CONTAINER 2-->
+									
+									<!--PHOTO-CONTAINER 3-->
+								<div class="column">
+									<img src="./images/thumbs/thumbnail_3.png" onclick="openModal();currentSlide(3)" alt="Resort">
+								</div>
+									<!--END PHOTO-CONTAINER 3-->
+
+									<!--Light Box-->
+								<div id="myModal" class="modal">
+									<span class="close cursor" onclick="closeModal()">&times;</span>
+									<div class="modal-content">
+									
+										<div class="mySlides">
+											<div class="numbertext">1 / 3</div>
+												<img src="images/thumbs/thumbnail_1lb.png" style="width:100%">
+											</div>
+
+										<div class="mySlides">
+											<div class="numbertext">2 / 3</div>
+												<img src="images/thumbs/thumbnail_2lb.png" style="width:100%">
+											</div>
+
+										<div class="mySlides">
+											<div class="numbertext">3 / 3</div>
+												<img src="images/thumbs/thumbnail_3lb.png" style="width:100%">
+											</div>
+											
+										<!-- Next/previous controls -->
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+										<!-- Caption text -->
+										<div class="caption-container">
+											<p id="caption"></p>
+										</div>
+
+										<!-- Thumbnail image controls -->
+										<div class="column">
+											<img class="demo" src="images/thumbs/thumbnail_1lbt.png" onclick="currentSlide(1)" alt="">
+										</div>
+
+										<div class="column">
+											<img class="demo" src="images/thumbs/thumbnail_2lbt.png" onclick="currentSlide(2)" alt="">
+										</div>
+
+										<div class="column">
+											<img class="demo" src="images/thumbs/thumbnail_3lbt.png" onclick="currentSlide(3)" alt="">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<!--END PHOTO-CONTAINER 1-->
-						
-						<!--PHOTO-CONTAINER 2-->
-						<div class="photo-container">
-							<div class="photo">
-								<img src="./images/thumbs/thumbnail_2.png" alt="Luxury Food">
-								<div class="photo-overlay">
-									<p>Luxury at its finest!</p>
-								</div>
-							</div>
-						</div>
-						<!--END PHOTO-CONTAINER 2-->
-						
-						<!--PHOTO-CONTAINER 3-->
-						<div class="photo-container">
-							<div class="photo">
-								<img src="./images/thumbs/thumbnail_3.png" alt="Resort">
-								<div class="photo-overlay">
-									<p>Luxury on the Mountains.</p>
-								</div>
-							</div>
-						</div>
-						<!--END PHOTO-CONTAINER 3-->
-						
-					</div>
 				</div>
 			</section>
 			<!--END GALLERY-->
