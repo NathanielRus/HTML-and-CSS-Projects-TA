@@ -185,100 +185,6 @@ section {
 }
 
 /*=================================
-    Modal STYLES
-===================================*/
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 200;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-}
-
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.column {
-    float: left;
-    width: 25%;
-}
-
-.close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.mySlides {
-    display: none;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-img.demo {
-    opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-    opacity: 1;
-}
-
-/*=================================
     CONTACT STYLES
 ===================================*/
 
@@ -302,8 +208,8 @@ img.demo {
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 200px; /* This is spacer before the Main title Logo */
-    padding-bottom: 50px; /* This is spacer after the Main title Logo */
+    padding-top: 50px; /* This is spacer before the Main title Logo */
+    padding-bottom: 0px; /* This is spacer after the Main title Logo */
 }
 
 .reservation {
